@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:id="@+id/lnvProductos"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtListado"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="@string/lista" />
+
+        <ScrollView
+            android:id="@+id/srcListado"
+            android:layout_width="match_parent"
+            android:layout_height="414dp"
+            android:contentDescription="@string/app_name">
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnProducto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod01" />
+
+                <Button
+                    android:id="@+id/btnProducto2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod02" />
+
+                <Button
+                    android:id="@+id/btnProducto3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod03" />
+
+                <Button
+                    android:id="@+id/btnProducto4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod04" />
+
+                <Button
+                    android:id="@+id/btnProducto5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod05" />
+
+                <Button
+                    android:id="@+id/btnProducto6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod06" />
+
+                <Button
+                    android:id="@+id/btnProducto7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod07" />
+
+                <Button
+                    android:id="@+id/btnProducto8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod08" />
+
+                <Button
+                    android:id="@+id/btnProducto9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod09" />
+
+                <Button
+                    android:id="@+id/btnProducto10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod10" />
+
+                <Button
+                    android:id="@+id/btnProducto11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod11" />
+
+                <Button
+                    android:id="@+id/btnProducto12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prod12" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/txtEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:background="#009688"
+            android:layout_marginTop="10dp"
+            android:height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/txtBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/by" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
